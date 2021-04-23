@@ -1,0 +1,56 @@
+body{
+    background-color: blue;
+    text-align: center;
+}
+#menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+#menu a{
+    text-decoration: none;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+}
+.links{
+  display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: darkblue;   
+}
+.imgGrid{
+    width: 350px;
+    height: 200px;
+    margin: 2px auto;
+}
+.img-header{
+    height: 500px;
+    width: 100%;
+}
+h1{
+    font-family: cursive;
+}
+h3{
+    text-shadow: 2px 2px blue;
+}
+img{
+    margin: 10px;
+    transition: transform, 0.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+html{
+    scroll-behavior: smooth;
+}
